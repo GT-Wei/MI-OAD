@@ -1,7 +1,6 @@
 <div align="center">
 
-# From Word to Sentence  
-### A Large‑Scale Multi‑Instance Dataset for **Open‑Set Aerial Detection**
+# From Word to Sentence: A Large‑Scale Multi‑Instance Dataset for **Open‑Set Aerial Detection**
 
 **Dataset Name:** **MI‑OAD**  
 **Annotation Method:** **OS‑W2S Label Engine**
