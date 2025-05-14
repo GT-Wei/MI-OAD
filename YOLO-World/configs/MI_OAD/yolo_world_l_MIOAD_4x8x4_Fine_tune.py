@@ -5,7 +5,7 @@ custom_imports = dict(
     imports=['yolo_world'],
     allow_failed_imports=False)
 
-load_from='/data/FM/weiguoting/AAAI2026/code/YOLO-World_RSSD/work_dirs/MI-OAD/Pretrain/epoch_4.pth'
+load_from='XXX/X.pth'
 work_dir = 'work_dirs/MI-OAD/Pretrain'
 
 # hyper-parameters
@@ -109,12 +109,12 @@ MIAOD_FT_Detection_datasets = dict(
     type='MultiModalDataset',
     dataset=dict(
         type='YOLOv5MIAOD_datasets',
-        data_root='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M',
+        data_root='/data/FM/datasets/MI-OAD-v1.1-2M',
         ann_file='Detection/Fine-Tune_All.json',
         data_prefix=dict(img='images/'),
-        classes_json='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+        classes_json='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
         filter_cfg=dict(filter_empty_gt=False, min_size=32)),
-    class_text_path='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+    class_text_path='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
     pipeline=train_pipeline)
 
 MIAOD_FT_Caption_datasets = dict(
@@ -122,12 +122,12 @@ MIAOD_FT_Caption_datasets = dict(
     type='MultiModalDataset',
     dataset=dict(
         type='YOLOv5MIAOD_datasets',
-        data_root='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M',
+        data_root='/data/FM/datasets/MI-OAD-v1.1-2M',
         ann_file='Caption/Fine-Tune_All.json',
         data_prefix=dict(img='images/'),
-        classes_json='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+        classes_json='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
         filter_cfg=dict(filter_empty_gt=False, min_size=32)),
-    class_text_path='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+    class_text_path='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
     pipeline=train_pipeline)
 
 train_dataloader = dict(batch_size=train_batch_size_per_gpu,
@@ -153,34 +153,34 @@ MIAOD_Detection_Val_dataset = dict(
     type='MultiModalDataset',
     dataset=dict(
         type='YOLOv5MIAOD_datasets',
-        data_root='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M',
+        data_root='/data/FM/datasets/MI-OAD-v1.1-2M',
         ann_file='Detection/Val_All.json',
         data_prefix=dict(img='images/'),
-        classes_json='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+        classes_json='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
         filter_cfg=dict(filter_empty_gt=False, min_size=32)),
-    class_text_path='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+    class_text_path='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
     pipeline=test_pipeline)
 MIAOD_Caption_Val_Phrase_dataset = dict(
     type='MultiModalDataset',
     dataset=dict(
         type='YOLOv5MIAOD_datasets',
-        data_root='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M',
+        data_root='/data/FM/datasets/MI-OAD-v1.1-2M',
         ann_file='Caption/Val_Phrase_ALL.json',
         data_prefix=dict(img='images/'),
-        classes_json='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+        classes_json='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
         filter_cfg=dict(filter_empty_gt=False, min_size=32)),
-    class_text_path='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+    class_text_path='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
     pipeline=test_pipeline)
 MIAOD_Caption_Val_Sentence_dataset = dict(
     type='MultiModalDataset',
     dataset=dict(
         type='YOLOv5MIAOD_datasets',
-        data_root='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M',
+        data_root='/data/FM/datasets/MI-OAD-v1.1-2M',
         ann_file='Caption/Val_Sentence_ALL.json',
         data_prefix=dict(img='images/'),
-        classes_json='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+        classes_json='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
         filter_cfg=dict(filter_empty_gt=False, min_size=32)),
-    class_text_path='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
+    class_text_path='/data/FM/datasets/MI-OAD-v1.1-2M/datasets_categories_list/ALL_Base_And_Novel_Classes.json',
     pipeline=test_pipeline)
 
 
@@ -192,7 +192,7 @@ MIAOD_Detection_Val_evaluator = dict(
         10,
         100
     ),
-    ann_file='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/Detection/Val_All.json',
+    ann_file='/data/FM/datasets/MI-OAD-v1.1-2M/Detection/Val_All.json',
     metric='bbox',
     classwise=True)
 MIAOD_Caption_Val_Phrase_evaluator = dict(
@@ -203,7 +203,7 @@ MIAOD_Caption_Val_Phrase_evaluator = dict(
         10,
         100
     ),
-    ann_file='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/Caption/Val_Phrase_ALL.json',
+    ann_file='/data/FM/datasets/MI-OAD-v1.1-2M/Caption/Val_Phrase_ALL.json',
     metric='bbox',
     classwise=True)
 MIAOD_Caption_Val_Sentence_evaluator = dict(
@@ -214,7 +214,7 @@ MIAOD_Caption_Val_Sentence_evaluator = dict(
         10,
         100
     ),
-    ann_file='/data/FM/weiguoting/AAAI2026/datasets/MI-OAD-v1.1-2M/Caption/Val_Sentence_ALL.json',
+    ann_file='/data/FM/datasets/MI-OAD-v1.1-2M/Caption/Val_Sentence_ALL.json',
     metric='bbox',
     classwise=True)
 
