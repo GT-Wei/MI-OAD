@@ -29,7 +29,7 @@
 </div>
 
 <div align="center">
-  <sub>⭐️ If you find this project useful, please give it a Star | 🔗 Share with the community</sub>
+  <sub>⭐️ If you find this project useful, please give it a Star </sub>
 </div>
 
 ---
