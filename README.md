@@ -46,11 +46,11 @@
 
 ## 📋 Todo List
 
-- [√] 🎯 Release MI-OAD dataset (sampled datasets 2M+ captions)
+- [x] 🎯 Release MI-OAD dataset (sampled datasets 2M+ captions)
 - [ ] 📦 Release original annotation data (8M+ captions)
 - [ ] 🔧 Release OS-W2S Label Engine Pipeline Code
 - [ ] 📚 Enhance code readability and documentation
-- [√] 🎯 Build strict zero-shot evaluation benchmark (Base/Novel category split)
+- [x] 🎯 Build strict zero-shot evaluation benchmark (Base/Novel category split)
 - [ ] 🚀 Non-strict zero-shot evaluation benchmark (large-scale pre-training, no fine-tuning)
 - [ ] 🧪 Test more existing models
 - [ ] ⚖️ Upload model weights for all frameworks
@@ -115,7 +115,7 @@ Using this label engine, we expand existing aerial detection datasets with rich 
 ### 🔧 Setup Instructions
 
 <details>
-<summary><strong>📦 Option 1: MMDetection Setup</strong></summary>
+<summary><strong>📦 MMDetection Setup</strong></summary>
 
 ```bash
 # 1. Create environment
@@ -135,7 +135,7 @@ cd ..
 </details>
 
 <details>
-<summary><strong>🎯 Option 2: YOLO-World Setup</strong></summary>
+<summary><strong>🎯YOLO-World Setup</strong></summary>
 
 ```bash
 # 1. Create environment
