@@ -188,11 +188,11 @@ bash YOLO-World/tools/MIOAD_Pretrain.sh
 
 <div align="center">
 
-| Platform | Link | Size | Format |
-|----------|------|------|--------|
-| **Kaggle** | [🔗 Download](https://kaggle.com/datasets/070cdff2f649a10895c6fa09a45a58d00982afd8a8ba573696f521edd59cc028) | Coming Soon | ZIP |
-| **Google Drive** | 🔄 Coming Soon | Coming Soon | ZIP |
-| **Hugging Face** | 🔄 Coming Soon | Coming Soon | Dataset |
+| Platform | Link |
+|----------|------|
+| **Kaggle** | [🔗 Download](https://kaggle.com/datasets/070cdff2f649a10895c6fa09a45a58d00982afd8a8ba573696f521edd59cc028) |
+| **Google Drive** | 🔄 Coming Soon | 
+| **Hugging Face** | 🔄 Coming Soon | 
 
 </div>
 
