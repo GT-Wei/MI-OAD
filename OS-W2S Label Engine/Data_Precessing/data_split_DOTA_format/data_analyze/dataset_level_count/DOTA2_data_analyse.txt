@@ -1,0 +1,20 @@
+图片总数: 19871
+类别统计:
+storage-tank: 13959
+small-vehicle: 301323
+plane: 14217
+bridge: 3290
+airport: 1556
+large-vehicle: 50880
+ship: 79801
+harbor: 12914
+tennis-court: 6877
+baseball-diamond: 1167
+swimming-pool: 4476
+roundabout: 1329
+container-crane: 313
+helicopter: 911
+ground-track-field: 852
+basketball-court: 1071
+soccer-ball-field: 709
+helipad: 109

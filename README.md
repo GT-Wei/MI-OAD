@@ -14,6 +14,9 @@
 <br/>
 
 <div align="center">
+  <a href="https://arxiv.org/pdf/2505.03334">
+    <img src="https://img.shields.io/badge/📄_arXiv-Paper-red.svg?style=for-the-badge" alt="arXiv Paper">
+  </a>
   <a href="https://kaggle.com/datasets/070cdff2f649a10895c6fa09a45a58d00982afd8a8ba573696f521edd59cc028">
     <img src="https://img.shields.io/badge/📦_Download-MI--OAD-blue.svg?style=for-the-badge" alt="Download MI-OAD">
   </a>
@@ -55,6 +58,14 @@
 - [ ] 🧪 Test more existing models
 - [ ] ⚖️ Upload model weights for all frameworks
 - [ ] 🌟 Enhance data diversity and build larger MI-OADv2 dataset
+
+
+## 🎨 Overview
+
+<div align="center">
+  <img src="./assets/Figure1.png" alt="OS-W2S Framework Overview" width="90%">
+  <p><em>Figure 1: OS-W2S Label Engine and MI-OAD Dataset Construction for Language-Guided Open-Set Aerial Detection. \textbf{Left}: The OS-W2S Label Engine pipeline automatically expands existing aerial detection datasets with multi-granularity textual captions ranging from words to sentences, enabling the construction of MI-OAD. Unlike existing tasks, language-guided open-set aerial detection supports multi-granularity language guidance (word, phrase, and sentence levels), making it more aligned with real-world application requirements. \textbf{Right}: Performance improvements achieved by MI-OAD across three representative aerial detection tasks: Remote Sensing Visual Grounding, Open-Vocabulary Aerial Detection, and Language-Guided Open-Set Detection, showing substantial gains over baselines without MI-OAD.</em></p>
+</div>
 
 ## ✨ Abstract
 

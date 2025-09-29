@@ -1,0 +1,11 @@
+图片总数: 14018
+类别统计:
+airplane: 15252
+windmill: 11923
+small-vehicle: 230418
+swimming-pool: 13901
+large-vehicle: 9281
+container: 74119
+ship: 26282
+storage-tank: 19752
+helicopter: 722

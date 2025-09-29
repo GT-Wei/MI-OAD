@@ -1,0 +1,22 @@
+图片总数: 23463
+类别统计:
+bridge: 3956
+harbor: 5469
+ship: 62537
+vehicle: 40365
+windmill: 5363
+overpass: 3112
+airport: 1328
+baseballfield: 5818
+tenniscourt: 12241
+basketball-court: 3223
+expressway-toll-station: 1298
+stadium: 1267
+ground-track-field: 3047
+chimney: 1680
+storagetank: 26403
+expressway-service-area: 2165
+airplane: 10100
+dam: 1050
+golffield: 1086
+trainstation: 1010

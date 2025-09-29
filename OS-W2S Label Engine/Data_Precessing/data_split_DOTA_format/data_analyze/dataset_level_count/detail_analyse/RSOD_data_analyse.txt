@@ -1,0 +1,6 @@
+图片总数: 3644
+类别统计:
+overpass: 694
+aircraft: 15792
+playground: 590
+oil-tanker: 5145

@@ -1,0 +1,15 @@
+图片总数: 22708
+类别统计:
+crossroad: 5373
+ground-track-field: 3710
+tennis-court: 4055
+parking-lot: 4370
+bridge: 3352
+baseball-diamond: 3567
+t-junction: 4657
+basketball-court: 3831
+harbor: 3489
+ship: 3080
+vehicle: 3921
+airplane: 4060
+storage-tank: 3451

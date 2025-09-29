@@ -1,0 +1,12 @@
+图片总数: 4425
+类别统计:
+people: 10303
+motor: 10592
+car: 41866
+bus: 3804
+van: 8001
+pedestrian: 31188
+truck: 3680
+awning-tricycle: 1061
+bicycle: 2111
+tricycle: 940

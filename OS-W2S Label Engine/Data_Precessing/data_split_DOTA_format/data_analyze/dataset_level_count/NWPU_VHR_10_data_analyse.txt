@@ -1,0 +1,12 @@
+图片总数: 1244
+类别统计:
+ship: 467
+basketball-court: 268
+baseball-diamond: 680
+airplane: 1267
+ground-track-field: 282
+bridge: 186
+vehicle: 980
+tennis-court: 919
+harbor: 361
+storage-tank: 1368
