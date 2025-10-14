@@ -14,9 +14,9 @@
 <br/>
 
 <div align="center">
-  <a href="https://arxiv.org/pdf/2505.03334">
+  <!-- <a href="https://arxiv.org/pdf/2505.03334">
     <img src="https://img.shields.io/badge/📄_arXiv-Paper-red.svg?style=for-the-badge" alt="arXiv Paper">
-  </a>
+  </a> -->
   <a href="https://kaggle.com/datasets/070cdff2f649a10895c6fa09a45a58d00982afd8a8ba573696f521edd59cc028">
     <img src="https://img.shields.io/badge/📦_Download-MI--OAD-blue.svg?style=for-the-badge" alt="Download MI-OAD">
   </a>
