@@ -26,8 +26,6 @@
   <a href="#-citation">
     <img src="https://img.shields.io/badge/📝_Cite-OS--W2S-orange.svg?style=for-the-badge" alt="Cite OS-W2S">
   </a>
-  <a href="https://github.com/GT-Wei/MI-OAD">
-    <img src="https://img.shields.io/github/stars/GT-Wei/MI-OAD?style=for-the-badge&color=yellow&cacheSeconds=3600" alt="GitHub Stars">
 </a>
   </a>
 </div>
